@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Lead_I', 'Lead_II', 'Lead_III', 'Lead_II_ext', 'Lead_V1', 'Lead_V2', 'Lead_V3', 'Lead_V4', 'Lead_V5', 'Lead_V6', 'Lead_aVF', 'Lead_aVL', 'Lead_aVR']
+
+roboflow:
+  workspace: ecg-paper-detection
+  project: ecg-detection-ver2-0ew8q
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/ecg-paper-detection/ecg-detection-ver2-0ew8q/3
